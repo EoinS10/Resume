@@ -1,0 +1,29 @@
+nav {
+  width: 100%;
+  background-color: black; color: white;
+  overflow: auto;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0 auto; paddingss: 0;
+  text-align: left;
+  width: 75%;
+}
+nav ul li {
+  display: inline-block;
+  margin:0; padding: 20px;
+}
+nav ul li:hover {
+  background-color: orange;
+}
+nav ul li a {
+  color: white; font-size: 20px;
+  text-decoration: none;
+  padding:0; margin:0;
+}
+nav ul li a:hover {
+  text-decoration: none;
+}
+nav ul li a:visited {
+  color: white;
+}

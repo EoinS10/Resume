@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}
+<title>Research</title>
+<link href="{{ url_for('static', filename='base.css') }}" type="text/css" rel="stylesheet">
+<link href="{{ url_for('static', filename='navigation.css') }}" type="text/css" rel="stylesheet">
+<link href="{{ url_for('static', filename='research.css') }}" type="text/css" rel="stylesheet">
+{% endblock %}
+
+{% block Navigation %}
+<nav>
+  <ul>
+    <li><a href='/'>Home</a></li>
+    <li><a href='/education'>Education</a></li>
+    <li><a href='/research'>Research</a></li>
+    <li><a href='/athletics'>Athletics</a></li>
+    <li><a href='/volunteering'>Volunteering</a></li>
+  </ul>
+</nav>
+{% endblock %}
+
+{% block content %}
+
+<p>This is the research page!</p>
+
+{% endblock %}

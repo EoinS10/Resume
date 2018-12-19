@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #555;
+  font-family: sans-serif;
+}
+
+.nav_bar {
+  margin: 0;
+  padding: 0;
+}
+
+a {font-size: 50px; color: black; text-decoration: none;}
+a:hover {text-decoration: underline;}
+a:visited {color: black;}
+
+.header {
+  text-align: center;
+  margin: 0;
+  background-color: #999;
+  padding: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 1em;
+  grid-auto-rows: auto;
+  margin: 1em;
+}
+.grid #box-1 {
+  background-color: blue; color: black;
+  text-align: center;
+  padding: 5em;
+  border: 6px solid yellow;
+}
+.grid #box-2 {
+  background: white; color: black;
+  text-align: center;
+  padding: 5em;
+  border: 6px solid dodgerblue;
+}
+.grid #box-3 {
+  background: maroon; color: black;
+  text-align: center;
+  padding: 5em;
+  border: 6px solid lightblue;
+}
+.grid #box-4 {
+  background: lightgreen; color: black;
+  text-align: center;
+  padding: 5em;
+  border: 6px solid brown;
+}
+.grid #box-1 a {color: yellow;}
+.grid #box-2 a {color: dodgerblue;}
+.grid #box-3 a {color: lightblue;}
+.grid #box-4 a {color: brown;}
