@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 
+
 {% block title %}
 <title>Education</title>
 <link href="{{ url_for('static', filename='base.css') }}" type="text/css" rel="stylesheet">
@@ -22,7 +23,13 @@
 {% endblock %}
 
 {% block content %}
-<p>Education</p>
+<div class="edu-content">
+  <h1>The University of Michigan College of Engineering</h1>
+  <h2><u>Major:</u></h2><p><strong>Engineering Physics</strong> with an intended concentration in Computer Science</p>
+  <h2><u>Current GPA:</u></h2><p>3.1</p>
+</div>
+
+<img src="https://news.umflint.edu/wp-content/uploads/2016/01/umich-yes-540x360.jpg" alt="Block M">
 
 
 {% endblock %}

@@ -1,3 +1,12 @@
-p {
-  color: pink;
+body {
+  background-color: navy;
+}
+
+.edu-content {
+  text-align: center; color: yellow;
+  margin: 10px; padding: 0;
+}
+img {
+  display: block;
+  margin-left: auto; margin-right: auto;
 }
