@@ -5,6 +5,7 @@ from app import app
 from index import *
 from education import *
 from research import *
+from athletics import *
 
 
 if __name__ == "__main__":
