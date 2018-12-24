@@ -6,6 +6,7 @@ from index import *
 from education import *
 from research import *
 from athletics import *
+from volunteering import *
 
 
 if __name__ == "__main__":
